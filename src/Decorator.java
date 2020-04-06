@@ -59,7 +59,7 @@ class LeftBracketDecorator extends AbstractDecorator{
 }
 
 class RightBracketDecorator extends AbstractDecorator{
-    
+
     public void print() {
         super.print();
         System.out.print("]");
